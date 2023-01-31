@@ -46,6 +46,8 @@
 
 - **ES6 Modules**
 - **Webpack**
+- **Fetch Scores from API**
+- **Submit Score to API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
