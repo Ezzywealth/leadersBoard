@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding-top: 100px;
+  margin: 0;
+  height: 100vh;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border: 1px solid black;
+  padding: 1rem;
+  height: max-content;
+}
+
+.scoreboard_body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+}
+
+.score_board {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.scores_list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.score {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.score:nth-child(even) {
+  background: rgb(170, 168, 168);
+}
+
+.scorelist_top {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.recent_scores {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: end;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+.add_score {
+  margin: 0;
+}
+
+button {
+  background: white;
+  padding: 3px 5px;
+  width: 70px;
+}
